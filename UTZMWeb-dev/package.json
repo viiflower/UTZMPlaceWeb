@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+"scripts": {
     "dev:php": "php -S 127.0.0.1:8080 -t .",
     "dev": "vite --config frontend/vite.config.js",
     "build": "vite build --config frontend/vite.config.js",
     "preview": "vite preview --config frontend/vite.config.js",
+    "start": "vite preview --config frontend/vite.config.js --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1",
     "test:marketplace": "npm run build && playwright test tests/marketplace-flow.spec.js"
   },
