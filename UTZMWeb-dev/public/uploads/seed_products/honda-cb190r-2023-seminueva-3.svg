@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Vehiculos Ficha rapida">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,.96)"/>
+      <stop offset="100%" stop-color="#fee2e2"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <circle cx="1042" cy="138" r="174" fill="#fca5a5" opacity=".34"/>
+  <circle cx="114" cy="790" r="148" fill="rgba(255,255,255,.08)"/>
+  <rect x="54" y="54" width="1092" height="792" rx="42" fill="rgba(255,255,255,.08)" stroke="rgba(255,255,255,.12)" stroke-width="2"/>
+
+  <g transform="translate(0 0)">
+    <rect x="72" y="72" width="632" height="756" rx="36" fill="url(#panel)"/>
+    <rect x="98" y="116" width="198" height="42" rx="21" fill="#dc2626" opacity=".14"/>
+    <text x="118" y="144" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#dc2626">Vehiculos</text>
+    <text x="98" y="256" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="800" fill="#111827"><tspan x="98" y="256">Honda CB190R 2023</tspan><tspan x="98" y="334">Seminueva</tspan></text>
+    <text x="98" y="596" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#dc2626">Ficha rapida</text>
+    <text x="98" y="648" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#475569">Galeria local 3</text>
+    <text x="98" y="704" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#475569">Producto preparado para pruebas visuales del marketplace</text>
+    <rect x="98" y="742" width="220" height="14" rx="7" fill="#fca5a5" opacity=".7"/>
+    <rect x="98" y="772" width="162" height="14" rx="7" fill="#dc2626" opacity=".3"/>
+  </g>
+
+  <g transform="translate(748 152)">
+    <rect x="0" y="0" width="352" height="508" rx="42" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.18)" stroke-width="2"/>
+    <g transform="translate(0 60)">
+  <rect x="58" y="162" width="238" height="86" rx="24" fill="rgba(255,255,255,.22)"/>
+  <path d="M96 162 L148 110 H236 L274 162 Z" fill="rgba(255,255,255,.34)"/>
+  <circle cx="126" cy="272" r="34" fill="rgba(255,255,255,.7)"/>
+  <circle cx="246" cy="272" r="34" fill="rgba(255,255,255,.7)"/>
+  <circle cx="126" cy="272" r="16" fill="rgba(15,23,42,.22)"/>
+  <circle cx="246" cy="272" r="16" fill="rgba(15,23,42,.22)"/>
+</g>
+  </g>
+</svg>
